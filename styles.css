@@ -14,7 +14,6 @@
 .me {
     border-radius: 10px;
     width: 50%;
-    box-shadow: 0 4px 8px 0;
 }
 
 .container {
@@ -57,7 +56,7 @@ label {
     padding: 15px 40px;
 }
 
-.final-button {
+.linkedin-button {
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
     display: block;
@@ -70,4 +69,57 @@ label {
     border-radius: 10px;
     border-color: black;
     border-width: 3px;
+}
+
+footer {
+    padding-top: 3%;
+}
+
+/*More colorful on mobile*/
+@media (max-width: 576px) {
+    .container {
+        background-color: dodgerblue;
+    }
+}
+
+/*Shadows look best on laptop*/
+@media (min-width: 992px) {
+    .me {
+        border-radius: 10px;
+        width: 50%;
+        box-shadow: 0 4px 8px 0;
+    }
+}
+.card-group {
+
+}
+
+/*Better for Landscape mobile*/
+@media (max-height: 450px) {
+    .im {
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .landing-text {
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .about {
+        text-align: center;
+        font-size: 2em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 900;
+    }
+
+    .abt-me {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 1em;
+        font-family: "Open Sans", sans-serif;
+        text-align: justify;
+    }
 }
