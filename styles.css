@@ -1,3 +1,37 @@
-.class {
-    color: aqua;
+.im {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.landing-text {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 3.75em;
+    /*padding-top: 30px;*/
+}
+
+.me {
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.about {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+}
+
+.abt-me {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
 }
